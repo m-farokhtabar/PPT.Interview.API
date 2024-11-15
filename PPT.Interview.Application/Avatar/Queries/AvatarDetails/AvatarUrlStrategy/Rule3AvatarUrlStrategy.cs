@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace PPT.Interview.Application.Avatar.Queries.AvatarDetails.AvatarUrlStrategy;
 
-internal class Rule3AvatarUrlStrategy : IAvatarUrlStrategy
+public class Rule3AvatarUrlStrategy : IAvatarUrlStrategy
 {
     private readonly IApplicationSettings settings;
 
