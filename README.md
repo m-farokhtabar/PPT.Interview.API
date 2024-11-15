@@ -31,6 +31,7 @@ To make the solution production-ready, the following improvements could be imple
 #### Error Handling and Logging
 - Implement robust error handling with standardized error response DTOs for consistent client communication.
 - Use advanced logging frameworks like **Serilog** with **Elasticsearch** or other sinks to monitor application behavior and troubleshoot issues effectively.
+- Customize error pages using **StatusCodePagesMiddleware** to deliver user-friendly error information.
 
 #### Performance Optimization
 - Introduce distributed caching (e.g., **Redis**) or in-memory caching for frequently accessed database results.
@@ -53,11 +54,9 @@ To make the solution production-ready, the following improvements could be imple
 
 #### UX and User Communication
 - Localize responses and error messages to support multiple languages where applicable.
-- Customize error pages using **StatusCodePagesMiddleware** to deliver user-friendly error information.
 
 #### Scalability and Maintainability
 - Introduce **CI/CD pipelines** for continuous integration, automated testing, and deployment.
-
 ---
 
 ### Repository
